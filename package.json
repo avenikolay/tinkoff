@@ -1,0 +1,23 @@
+{
+  "name": "tinkoff",
+  "version": "1.0.0",
+  "description": "tinkoff example page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatschemer/tinkoff.git"
+  },
+  "keywords": [
+    "tinkoff",
+    "example"
+  ],
+  "author": "Nikolay Kozlov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greatschemer/tinkoff/issues"
+  },
+  "homepage": "https://github.com/greatschemer/tinkoff#readme"
+}
