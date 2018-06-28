@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>A8480EFD-7C63-4F0B-8F7E-4E64BE8C49E2</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M3.57894737,3.81578947 C1.36842105,6.02631579 0.263157895,8.72568421 0.263157895,11.9151579 C0.263157895,15.0111579 1.36842105,17.6637895 3.57894737,19.8730526 C5.78947368,22.1164211 8.49010526,23.2368421 11.6795789,23.2368421 C14.7743158,23.2368421 17.4256842,22.1164211 19.6374737,19.8730526 C21.8795789,17.6637895 23,15.0111579 23,11.9151579 C23,8.72568421 21.8795789,6.02631579 19.6374737,3.81578947 C17.4256842,1.60526316 14.7743158,0.5 11.6795789,0.5 C8.49010526,0.5 5.78947368,1.60526316 3.57894737,3.81578947 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.7368421" height="22.7368421" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="test-sme" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="test-sme-2" transform="translate(-769.000000, -1268.000000)" stroke="#DD5656">
+            <g id="Stroke-1-Copy-2-+-Fill-2-Copy-2-+-Stroke-1-Copy-2" transform="translate(769.000000, 1268.000000)">
+                <path d="M11.75,16.3789474 L11.75,16.7578947" id="Stroke-1-Copy-2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <use id="Fill-2-Copy-2" mask="url(#mask-2)" stroke-width="3" xlink:href="#path-1"></use>
+                <path d="M11.75,6.57841026 L11.75,13.7353517" id="Stroke-1-Copy-2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

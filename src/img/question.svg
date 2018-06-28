@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>28EE5709-6A96-4F4E-A823-A965551FF873</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M3.57894737,3.81578947 C1.36842105,6.02631579 0.263157895,8.72568421 0.263157895,11.9151579 C0.263157895,15.0111579 1.36842105,17.6637895 3.57894737,19.8730526 C5.78947368,22.1164211 8.49010526,23.2368421 11.6795789,23.2368421 C14.7743158,23.2368421 17.4256842,22.1164211 19.6374737,19.8730526 C21.8795789,17.6637895 23,15.0111579 23,11.9151579 C23,8.72568421 21.8795789,6.02631579 19.6374737,3.81578947 C17.4256842,1.60526316 14.7743158,0.5 11.6795789,0.5 C8.49010526,0.5 5.78947368,1.60526316 3.57894737,3.81578947 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.7368421" height="22.7368421" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="test-sme" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="test-sme-2" transform="translate(-769.000000, -1478.000000)" stroke="#74A3C7">
+            <g id="Stroke-1-+-Fill-2-Copy-3" transform="translate(769.000000, 1478.000000)">
+                <path d="M9,8.8 C9.09473684,8.45263158 9.30063158,8.10652632 9.61642105,7.75789474 C10.1216842,7.25263158 10.7532632,7 11.5111579,7 C12.2374737,7 12.8526316,7.25263158 13.3578947,7.75789474 C13.7368421,8.10652632 13.9263158,8.62694737 13.9263158,9.32168421 C13.9263158,9.79536842 13.8315789,10.1591579 13.6421053,10.4105263 C13.4842105,10.7263158 13.1532632,11.1065263 12.648,11.5473684 C11.7322105,12.2749474 11.3052632,13.0315789 11.3684211,13.8210526 M11.3684211,16.3789474 L11.3684211,16.7578947" id="Stroke-1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <use id="Fill-2" mask="url(#mask-2)" stroke-width="3" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

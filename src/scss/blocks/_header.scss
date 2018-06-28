@@ -1,0 +1,37 @@
+.header {
+	height: 95px;
+	padding: 15px 0;
+}
+
+.header__logo {
+	width: 197px;
+	height: 65px;
+	display: block;
+	@include xs {
+		@include automargin;
+	}
+	@include sm {
+		@include automargin;
+	}
+}
+.header__phone {
+	font-size: 21px;
+	line-height: 21px;
+	color: #333333;
+	text-decoration: none;
+	&:hover {
+		color: lighten(#333333, 30%);
+	}
+	@include xs {
+		display: none;
+	}
+	@include sm {
+		display: none;
+	}
+}
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}

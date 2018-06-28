@@ -19,5 +19,30 @@
   "bugs": {
     "url": "https://github.com/greatschemer/tinkoff/issues"
   },
-  "homepage": "https://github.com/greatschemer/tinkoff#readme"
+  "homepage": "https://github.com/greatschemer/tinkoff#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.6.4",
+    "browser-sync": "^2.24.5",
+    "css-mqpacker": "^6.0.2",
+    "del": "^3.0.0",
+    "emitty": "^1.4.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "postcss-combine-duplicated-selectors": "^5.0.2",
+    "postcss-sorting": "^3.1.0"
+  },
+  "dependencies": {},
+  "optionalDependencies": {}
 }

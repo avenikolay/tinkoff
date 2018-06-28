@@ -1,0 +1,88 @@
+@mixin btn () {
+  border: none;
+  cursor: pointer;
+  
+  
+  border-radius: 6px;
+  background-color: #ffdd2d;
+  display: block;
+  color: #333333;
+  line-height: 62px;
+  text-align: center;
+  text-decoration: none;
+  &:hover {
+    background-color:  darken(#ffdd2d, 10%);
+  }
+}
+
+@mixin automargin() {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin xs() {
+  @media #{$xs} {
+    @content;
+  }
+}
+@mixin sm() {
+  @media #{$sm} {
+    @content;
+  }
+}
+@mixin sm-down() {
+  @media #{$sm-down} {
+    @content;
+  }
+}
+
+@mixin md() {
+  @media #{$md} {
+    @content;
+  }
+}
+@mixin md-up() {
+  @media #{$md-up} {
+    @content;
+  }
+}
+@mixin lg() {
+  @media #{$lg} {
+    @content;
+  }
+}
+
+@mixin xl() {
+  @media #{$xl} {
+    @content;
+  }
+}
+
+
+@mixin inputPlaceholder() {
+    $selector: '';
+    $prefixes: (
+        moz: "::-moz",
+        webkit: "::-webkit",
+        ie: ":-ms"
+    );
+    @each $prop, $value in $prefixes {
+        @if $prop != "moz" {
+            $selector: #{$value}-input-placeholder;
+        } @else {
+            $selector: #{$value}-placeholder;
+        }
+        @if & {
+            &#{$selector} {
+                @content;
+            }
+        } @else {
+            #{$selector} {
+                @content;
+            }
+        }
+    }
+    &::placeholder {
+      @content;
+    }
+}

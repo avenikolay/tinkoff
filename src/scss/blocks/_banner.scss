@@ -1,0 +1,92 @@
+.banner {
+	overflow: hidden;
+	height: 413px;
+	background-image: linear-gradient(to right, #1489e7, #003e82);
+	position: relative;
+	@include sm-down {
+		height: 390px;
+	}
+}
+
+.banner__img {
+	height: 150%;
+	object-fit: contain;
+	position: absolute;
+	left: -40px;
+	bottom: -57px;
+	z-index: 0;
+
+	@include sm-down {
+		height: 100%;
+		left: -10px;
+		bottom: -84px;
+	}
+}
+
+.banner__info {
+	position: absolute;
+	top: 91px;
+	right: 182px;
+	z-index: 1;
+	overflow: hidden;
+	@include sm-down {
+		position: relative;
+		top: 0;
+		right: 0;
+	}	height: 100%;
+}
+.banner__title {
+	margin: 0;
+	padding: 0;
+	font-size: 50px;
+	font-weight: 100;
+	line-height: 1;
+	letter-spacing: normal;
+	color: #ffffff;
+	width: 342px;
+	height: 100px;
+	margin-bottom: 18px;
+
+	@include sm-down {
+		width: 239px;
+		height: 72px;
+		margin-bottom: 7px;
+		text-align: center;
+		font-size: 30px;
+		line-height: 1.2;
+		margin-top: 26px;
+		@include automargin;
+	}
+}
+
+.banner__text {
+	margin: 0;
+	height: 48px;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #ffffff;
+	@include sm-down {
+		@include automargin;
+		width: 324px;
+		font-size: 17px;
+		line-height: 1.41;
+		text-align: center;
+		color: #ffffff;
+
+	}
+}
+
+.banner__btn {
+	@include btn ();
+	width: 212px;
+	height: 62px;
+	@include sm-down {
+		position: absolute;
+		bottom: 30px;
+		@include automargin;
+		left: 0;
+		right: 0;
+	}
+}

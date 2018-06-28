@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="49px" viewBox="0 0 48 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>5541DF35-ACD1-4CB3-9BEF-ACCD5D0BD13A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <ellipse id="path-1" cx="24" cy="24.3934426" rx="24" ry="24.3934426"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="48" height="48.7868852" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="test-sme" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="test-sme-2" transform="translate(-600.000000, -1963.000000)">
+            <g id="Group-3" transform="translate(600.000000, 1963.000000)">
+                <use id="Oval-54-Copy-7" stroke="#74A3C7" mask="url(#mask-2)" stroke-width="2.4" xlink:href="#path-1"></use>
+                <path d="M29.165,15.6623506 C28.3395,15.3497199 26.8225,15.3023679 25.975,15.3023679 C23.4985,15.3023679 22.4725,17.3185936 22.4725,19.74323 L22.4725,21.3521211 L21,21.3521211 L21,24.545151 L22.4725,24.545151 L22.4725,33.3558472 L25.4615,33.3558472 L25.4615,24.545151 L28.4285,24.545151 L28.4285,21.3521211 L25.4615,21.3521211 L25.4615,19.4553515 C25.4615,18.6632821 26.711,18.2548713 27.291,18.2548713 C27.7595,18.2548713 28.2725,18.3511895 28.7185,18.4953978 L29.165,15.6623506" id="Imported-Layers-Copy-12" fill="#74A3C7"></path>
+            </g>
+        </g>
+    </g>
+</svg>
