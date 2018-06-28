@@ -1,14 +1,32 @@
 @import 'libs/_normalize.scss';
-//@import 'libs/_fonts.scss';
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&subset=cyrillic');
+@import 'libs/_fonts.scss';
+// @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&subset=cyrillic');
 
 @import '_mixins.scss';
 @import '_vars.scss';
 
 .container {
-	padding: 0 18px;
 	max-width: 828px;
 	margin: 0 auto;
+	@include contentpd {
+		padding: 0 18px;
+	}
+}
+
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.wrapper-p {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
 }
 
 html {
@@ -35,4 +53,6 @@ body {
 @import 'blocks/_nav.scss';
 @import 'blocks/_banner.scss';
 @import 'blocks/_main.scss';
+@import 'blocks/_searchtags.scss';
+@import 'blocks/_orderform.scss';
 @import 'blocks/_footer.scss';

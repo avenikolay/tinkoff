@@ -1,31 +1,6 @@
 main.main
 	.container
-		h2.main__title Любые категории  платежей
+		h1.main__title Любые категории  платежей
 		include searchtags
-		h3.main__subtitle Заполните несколько простых полей
-		form.orderform
-			.orderform__formgroup
-				label.orderform__label ФИО
-				input.orderform__text(type="text")
-			.orderform__formgroup.orderform__formgroup_haserror
-				label.orderform__label Город проживания
-				input.orderform__text(type="text")
-				i.orderform__icon
-				span.orderform__formmessage Для заполнения этого поля не допустимо использовать буквы латинского алфавита
-			.orderform__formgroup
-				label.orderform__label Мобильный телефон
-				input.orderform__text(type="phone")
-			.orderform__formgroup.orderform__formgroup_hasinfo
-				label.orderform__label Электронная почта
-				input.orderform__text(type="email")
-				i.orderform__icon.orderform__icon_question
-				span.orderform__tooltip Ваши данные замаскированы в целях безопасности. Для изменения информации с вами свяжется оператор колл-центра.
-			h3.orderform__subtitle Выберите это или другое
-			.orderform__thisorthat
-				label.orderform__checklabel
-					input.orderform__checkbox(type="radio" name="thisorthat")
-					span.orderform__checktext Это
-				label.orderform__checklabel
-					input.orderform__checkbox(type="radio" name="thisorthat")
-					span.orderform__checktext Другое
-			button.orderform__submit(type="submit") Отправить
+		h2.main__subtitle Заполните несколько простых полей
+		include orderform

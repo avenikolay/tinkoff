@@ -61,7 +61,7 @@
 	}
 }
 .nav__link {
-	padding: 0 15px;
+	//padding: 0 15px;
 	font-size: 13px;
 	letter-spacing: 0.9px;
 	color: #ffffff;
@@ -72,6 +72,6 @@
 	line-height: 65px;
 	text-align: center;
 	&:hover {
-		background-color: lighten(#3e4757, 10%);
+		color: lighten(#3e4757, 50%);
 	}
 }

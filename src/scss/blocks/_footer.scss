@@ -17,8 +17,6 @@
 	@include md-up {
 		max-width: 828px;
 		@include automargin;
-		padding-left: 18px;
-		padding-right: 18px;
 	}
 }
 .footer__menulist {
@@ -26,14 +24,12 @@
 	margin: 0;
 	list-style-type: none;
 	margin-bottom: 33px;
+	margin-right: 36px;
 	@include sm-down {
 		margin-bottom: 16px;
 	}
 }
 
-.footer__menulist {
-	width: 50%;
-}
 
 .footer__menuitem {
 	font-size: 13px;
@@ -96,7 +92,6 @@
 	line-height: 1.43;
 	color: #333333;
 	text-decoration: none;
-	text-align: center;
 	display: block;
 	line-height: 30px;
 	&:hover {
@@ -110,7 +105,7 @@
 	color: #9299a2;
 }
 .footer__callbtn {
-	width: 255px;
+	width: 254px;
 	height: 48px;
 	border-radius: 6px;
 	border: solid 1px #74a3c7;
@@ -124,15 +119,21 @@
 	position: relative;
 	padding-left: 50px;
 	padding-right: 24px;
+	&:hover {
+		background-color: #f6f7f8;
+	}
+	@include sm-down {
+		&:hover {
+			background-color: #fff;
+		}
+	}
 	@include sm {
 		width: 255px;
 	}
 	@include xs {
 		width: 100%;
 	}
-	&:hover {
-		background-color: lighten(#74a3c7, 50%);
-	}
+	
 	&:before {
 		content: '';
 		width: 18px;
@@ -167,14 +168,14 @@
 	}
 }
 .footer__left {
-	width: 60%;
+	max-width: 438px;
 	height: 50%;
 	@include sm-down {
 		width: 100%;
 	}
 }
 .footer__admenu {
-	width: 55%;
+	max-width: 438px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -206,20 +207,25 @@
 	display: block;
 	width: 48px;
 	height: 49px;
+	border-radius: 50%;
 	text-indent: -9999px;
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-bottom: 50px;
+	&:hover {
+		background-color: #f6f7f8;
+	}
 
 	@include sm-down {
 		width: 30px;
 		height: 31px;
 		margin-bottom: 29.5px;
 		margin-right: 14px;
+		&:hover {
+			background-color: #fff;
+		}
 	}
-	&:hover {
-		background-color: lighten(#74a3c7, 50%);
-	}
+	
 	&_vk {
 		background-image: url(../img/vk.svg);
 	}

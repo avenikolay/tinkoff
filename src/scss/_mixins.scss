@@ -58,6 +58,12 @@
   }
 }
 
+@mixin contentpd() {
+  @media #{$contentpd} {
+    @content;
+  }
+}
+
 
 @mixin inputPlaceholder() {
     $selector: '';
